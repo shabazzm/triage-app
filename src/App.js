@@ -10,6 +10,7 @@ import { AcuityScreenFive } from './screens/AcuityScreenFive';
 import { AgeScreen } from './screens/AgeScreen';
 import {HighRiskScreen} from './screens/HighRiskScreen';
 import { ResourceScreen } from './screens/ResourceScreen';
+import {VitalScreen} from './screens/VitalScreen';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route  path="/AgeScreen" element={<AgeScreen />}/>
           <Route  path="/HighRiskScreen" element={<HighRiskScreen />}/>
           <Route  path="/ResourceScreen" element={<ResourceScreen />}/>
+          <Route  path ="/VitalScreen" element={<VitalScreen />}/>
           
 
           

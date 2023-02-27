@@ -1,6 +1,7 @@
 import React from "react";
 import TextBox from "../../components/TextBox";
 import Input from "../../components/Input";
+import BackBtn from "../../components/BackBtn";
 import DecoratorDiv  from "../../components/DecoratorDiv";
 
 export const HighRiskScreen=()=>{
@@ -27,6 +28,7 @@ export const HighRiskScreen=()=>{
                No
             </Input>
 
+            <BackBtn decision='/'>Back</BackBtn>
             
             
       </div>

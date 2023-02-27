@@ -3,6 +3,7 @@ import TextBox from "../../components/TextBox";
 import Input from "../../components/Input";
 import DecoratorDiv  from "../../components/DecoratorDiv";
 
+
 export const StartScreen=()=>{
 
     return(
@@ -21,6 +22,7 @@ export const StartScreen=()=>{
             <Input decision="HighRiskScreen">
                 No
             </Input>
+            
       </div>
     );
 
