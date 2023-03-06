@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import TextBox from "../../components/TextBox";
 import DecoratorDiv  from "../../components/DecoratorDiv";
+import Input from "../../components/Input";
 
 export const AcuityScreenOne=(props)=>{
     const location = useLocation()
@@ -18,6 +19,12 @@ export const AcuityScreenOne=(props)=>{
                 1
                 {props.location}
             </TextBox>
+            <br></br>
+            <br></br>
+            <Input decision="StartScreen">
+                Start Over
+            </Input>
+            
                 
             
       </div>
