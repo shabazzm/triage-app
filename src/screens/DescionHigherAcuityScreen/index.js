@@ -4,24 +4,23 @@ import Input from "../../components/Input";
 import DecoratorDiv  from "../../components/DecoratorDiv";
 
 
-export const StartScreen=()=>{
+export const DecisionHigherAcuityScreen=()=>{
 
     return(
 
         <div>
             <DecoratorDiv />
             <TextBox>
-                Does your patient require life saving intervention?
+                Your patient has (a) vital sign(s) in the danger zone. 
+                Do you want to increase your patient's acuity Score to 2?
             </TextBox >
     
            
-            <Input  decision="AcuityScreenOne" test="test">
+            <Input decision="AcuityScreenTwo" test="test">
                 Yes
             </Input>
-            <br></br>
-            <br></br>
                 
-            <Input decision="HighRiskScreen">
+            <Input decision="AcuityScreenThree">
                 No
             </Input>
             

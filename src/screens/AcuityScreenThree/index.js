@@ -1,6 +1,7 @@
 import React from "react";
 import TextBox from "../../components/TextBox";
 import DecoratorDiv  from "../../components/DecoratorDiv";
+import Input from "../../components/Input";
 
 export const AcuityScreenThree=()=>{
 
@@ -12,6 +13,11 @@ export const AcuityScreenThree=()=>{
                 Your Patient's Acuity is 
                 3
             </TextBox>
+            <br></br>
+            <br></br>
+            <Input decision="StartScreen">
+                Start Over
+            </Input>
                 
             
       </div>

@@ -15,19 +15,19 @@ export const AgeScreen=()=>{
             </TextBox >
     
            
-            <Input decision="/VitalScreen" age="1">
+            <Input decision="/VitalScreen1" age="1">
                 Less than 3 Months
             </Input>
 
-            <Input decision="/VitalScreen" age="2">
+            <Input decision="/VitalScreen2" age="2">
                 3 Months - 3 Years
             </Input>
 
-            <Input decision="/VitalScreen" age="3">
+            <Input decision="/VitalScreen3" age="3">
                 3 - 8 Years
             </Input>
  
-            <Input decision="/VitalScreen" age="4">
+            <Input decision="/VitalScreen4" age="4">
                 More than 8 Years
             </Input>
             
