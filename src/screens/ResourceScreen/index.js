@@ -18,10 +18,14 @@ export const ResourceScreen=()=>{
             <Input decision="/AgeScreen">
                 Many
             </Input>
+            <br></br>
+            <br></br>
 
             <Input decision="/AcuityScreenFour">
                One
             </Input>
+            <br></br>
+            <br></br>
 
             <Input decision="/AcuityScreenFive">
                None

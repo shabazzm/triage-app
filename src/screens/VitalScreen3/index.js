@@ -14,6 +14,7 @@ export const VitalScreen3=()=>{
     
              Is the Heart rate for your patient  more than 140 beats per minute
              <br></br>
+             <br></br>
              <Input decision="AcuityScreenOne" test="test">
                 Yes
             </Input>
@@ -21,8 +22,10 @@ export const VitalScreen3=()=>{
                 No
             </Input>
             <br></br>
+            <br></br>
 
             Is the Respiratory rate for your patient more than 30 breaths per minute
+            <br></br>
             <br></br>
             <Input decision="AcuityScreenOne" test="test">
                 Yes
@@ -31,8 +34,10 @@ export const VitalScreen3=()=>{
                 No
             </Input>
             <br></br>
+            <br></br>
 
             Is the SAO2% less than 92%
+            <br></br>
             <br></br>
             <Input decision="AcuityScreenOne" test="test">
                 Yes

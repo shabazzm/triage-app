@@ -23,10 +23,14 @@ export const HighRiskScreen=()=>{
             <Input decision="/AcuityScreenTwo">
                 Yes
             </Input>
+            <br></br>
+            <br></br>
 
             <Input decision="/ResourceScreen">
                No
             </Input>
+            <br></br>
+            <br></br>
 
             <BackBtn decision='/'>Back</BackBtn>
             
