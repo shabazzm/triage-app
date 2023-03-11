@@ -11,16 +11,18 @@ export const DecisionHigherAcuityScreen=()=>{
         <div>
             <DecoratorDiv />
             <TextBox>
-                Your patient has (a) vital sign(s) in the danger zone. 
-                Do you want to increase your patient's acuity Score to 2?
+                A vital sign is in the danger zone.
+                <br></br>
+                Increase acuity Score to 2?
             </TextBox >
     
            
-            <Input decision="AcuityScreenTwo" test="test">
+            <Input decision="/AcuityScreenTwo" test="test">
                 Yes
             </Input>
-                
-            <Input decision="AcuityScreenThree">
+            <br></br>
+            <br></br>
+            <Input decision="/AcuityScreenThree">
                 No
             </Input>
             

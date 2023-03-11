@@ -2,6 +2,8 @@ import React from "react";
 import TextBox from "../../components/TextBox";
 import DecoratorDiv  from "../../components/DecoratorDiv";
 import Input from "../../components/Input";
+import BackBtn from "../../components/BackBtn";
+import NextBtn from "../../components/NextBtn";
 export const VitalScreen4=()=>{
 
     return(
@@ -14,32 +16,35 @@ export const VitalScreen4=()=>{
     
              Is the Heart rate for your patient  more than 100 beats per minute
              <br></br>
-             <Input decision="AcuityScreenOne" test="test">
+             <br></br>
+             <Input decision="/DecisionHigherAcuityScreen" test="test">
                 Yes
             </Input>
-            <Input decision="AcuityScreenThree" test="test">
-                No
-            </Input>
+            <br></br>
             <br></br>
 
             Is the Respiratory rate for your patient more than 20 breaths per minute
             <br></br>
-            <Input decision="AcuityScreenOne" test="test">
+            <br></br>
+            <Input decision="/DecisionHigherAcuityScreen" test="test">
                 Yes
             </Input>
-            <Input decision="AcuityScreenThree" test="test">
-                No
-            </Input>
+            
+            <br></br>
             <br></br>
 
             Is the SAO2% less than 92%
             <br></br>
-            <Input decision="AcuityScreenOne" test="test">
+            <br></br>
+            <Input decision="/DecisionHigherAcuityScreen" test="test">
                 Yes
             </Input>
-            <Input decision="AcuityScreenThree" test="test">
-                No
-            </Input>
+            <br></br>
+            <br></br>
+            <BackBtn decision='/AgeScreen'>Back</BackBtn>
+            <br></br>
+            <br></br>
+           <NextBtn decision='/AcuityScreenThree'>Next</NextBtn>
             
             
       </div>

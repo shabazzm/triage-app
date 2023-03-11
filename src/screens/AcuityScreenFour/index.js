@@ -15,7 +15,7 @@ export const AcuityScreenFour=()=>{
             </TextBox>
             <br></br>
             <br></br>
-            <Input decision="StartScreen">
+            <Input decision="/">
                 Start Over
             </Input>
                 

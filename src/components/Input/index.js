@@ -4,7 +4,7 @@ import { InputBtn } from "./styles"
 import { Link } from "react-router-dom";
 
 
-const propInputBtn=(props)=> <InputBtn to={props.decision} state={{age:props.age}}/>
+//const propInputBtn=(props)=> <InputBtn to={props.decision} state={{age:props.age}}/>
 const Input=(props)=>
 {
     
@@ -12,7 +12,7 @@ const Input=(props)=>
     return(
         
        
-        <Button variant="contained" component={Link} to ={props.decision} state={{age:props.age}}>{props.children}</Button>
+        <Button style={{backgroundColor:"#4FC2A7"}}variant="contained" component={Link} to ={props.decision} state={{age:props.age}}>{props.children}</Button>
         
     );
 }
