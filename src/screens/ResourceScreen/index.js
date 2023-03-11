@@ -2,6 +2,7 @@ import React from "react";
 import TextBox from "../../components/TextBox";
 import Input from "../../components/Input";
 import DecoratorDiv  from "../../components/DecoratorDiv";
+import BackBtn from "../../components/BackBtn";
 
 export const ResourceScreen=()=>{
 
@@ -30,6 +31,10 @@ export const ResourceScreen=()=>{
             <Input decision="/AcuityScreenFive">
                None
             </Input>
+
+            <br></br>
+            <br></br>
+            <BackBtn decision='/HighRiskScreen'>Back</BackBtn>
 
             
             

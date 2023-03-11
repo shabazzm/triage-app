@@ -2,6 +2,7 @@ import React from "react";
 import TextBox from "../../components/TextBox";
 import Input from "../../components/Input";
 import DecoratorDiv  from "../../components/DecoratorDiv";
+import BackBtn from "../../components/BackBtn";
 
 export const AgeScreen=()=>{
 
@@ -36,6 +37,9 @@ export const AgeScreen=()=>{
             <Input decision="/VitalScreen4" age="4">
                 More than 8 Years
             </Input>
+            <br></br>
+            <br></br>
+            <BackBtn decision='/ResourceScreen'>Back</BackBtn>
             
             
       </div>
